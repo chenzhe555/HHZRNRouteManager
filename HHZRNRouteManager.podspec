@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.description  = "多bundle 多图片 拆包工具"
   s.homepage     = "https://github.com/chenzhe555/HHZRNRouteManager"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "chenzhe" => "chenzhe@meicai.cn" }
+  s.author       = { "chenzhe" => "chenzhe@meicai.cn" }
   s.source       = { :git => "https://github.com/chenzhe555/HHZRNRouteManager.git", :tag => "#{s.version}" }
-  s.source_files  = "HHZRNRouteManager/classes/*.{h,m}"
+  s.source_files = "HHZRNRouteManager/classes/*.{h,m}"
 end
