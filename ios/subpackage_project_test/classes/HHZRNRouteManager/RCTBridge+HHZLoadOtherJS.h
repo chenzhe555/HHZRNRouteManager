@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface RCTBridge (HHZLoadOtherJS)
 
 /**
- 对外声明executeSourceCode方法，用于执行额外js代码
+ 对外声明executeSourceCode方法
 
  @param sourceCode js二进制数据
  */

@@ -271,7 +271,7 @@
 {
   self = [super init];
   if (self) {
-    self.bundleBaseName = @"jsbundles";
+    self.bundleBaseName = @"rnfiles";
   }
   return self;
 }

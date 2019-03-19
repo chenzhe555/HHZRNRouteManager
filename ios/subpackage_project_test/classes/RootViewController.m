@@ -21,10 +21,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
   [self loadBundles];
-  dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+  if (![[[NSUserDefaults standardUserDefaults] objectForKey:@"load_once"] boolValue]) {
     [self downloadBundle];
-  });
+  }
 }
+
+
 
 -(void)loadBundles
 {
@@ -72,9 +74,10 @@
       dispatch_async(dispatch_get_main_queue(), ^{
         [[HHZToastView shareManager] showToastInCenter:@"下载成功"];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//          [[HHZRNRouteManager shareManager] reloadCallback:^(BOOL success, NSDictionary *dic) {
-//            NSLog(@"ssssss---reloadCallback success");
-//          }];
+          [[NSUserDefaults standardUserDefaults] setObject:@(1) forKey:@"load_once"];
+          [[HHZRNRouteManager shareManager] reloadCallback:^(BOOL success, NSDictionary *dic) {
+            NSLog(@"ssssss---reloadCallback success");
+          }];
         });
       });
     }

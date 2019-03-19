@@ -48,7 +48,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- 重启Bridge
+ 重启Bridge(测试发现reload之后图片实际被替换了，但显示还是走的缓存取的旧图)
  */
 -(void)reloadCallback:(LoadJSBundleHandler)callback;
 
