@@ -1,1 +1,4 @@
 Pods
+node_modules
+.idea
+_test_

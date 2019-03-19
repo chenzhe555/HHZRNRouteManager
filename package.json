@@ -1,0 +1,41 @@
+{
+  "name": "subpackage_project_test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "^0.59.1",
+    "react-native-cz-alertview": "git+https://github.com/chenzhe555/react-native-cz-alertview.git",
+    "react-native-cz-alipay-calendar": "git+https://github.com/chenzhe555/react-native-cz-alipay-calendar.git",
+    "react-native-cz-button": "git+https://github.com/chenzhe555/react-native-cz-button.git",
+    "react-native-cz-calendar": "git+https://github.com/chenzhe555/react-native-cz-calendar.git",
+    "react-native-cz-common-modal": "git+https://github.com/chenzhe555/react-native-cz-common-modal.git",
+    "react-native-cz-flatlist": "git+https://github.com/chenzhe555/react-native-cz-flatlist.git",
+    "react-native-cz-image-placeholder": "git+https://github.com/chenzhe555/react-native-cz-image-placeholder.git",
+    "react-native-cz-inputtext": "git+https://github.com/chenzhe555/react-native-cz-inputtext.git",
+    "react-native-cz-loading": "git+https://github.com/chenzhe555/react-native-cz-loading.git",
+    "react-native-cz-navigationview": "git+https://github.com/chenzhe555/react-native-cz-navigationview.git",
+    "react-native-cz-pack-element": "git+https://github.com/chenzhe555/react-native-cz-pack-element.git",
+    "react-native-cz-panel": "git+https://github.com/chenzhe555/react-native-cz-panel.git",
+    "react-native-cz-permission": "git+https://github.com/chenzhe555/react-native-cz-permisson.git",
+    "react-native-cz-reddot": "git+https://github.com/chenzhe555/react-native-cz-reddot.git",
+    "react-native-cz-scroll-tab": "git+https://github.com/chenzhe555/react-native-cz-scroll-tab.git",
+    "react-native-cz-toast": "git+https://github.com/chenzhe555/react-native-cz-toast.git",
+    "react-native-fast-image": "5.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

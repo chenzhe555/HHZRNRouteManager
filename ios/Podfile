@@ -1,0 +1,51 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'subpackage_project_test' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for subpackage_project_test
+  pod 'HHZConfigs', :git => 'https://github.com/chenzhe555/HHZConfigs.git'
+  pod 'HHZBaseClass', :git => 'https://github.com/chenzhe555/HHZBaseClass.git'
+  pod 'HHZUtils', :git => 'https://github.com/chenzhe555/HHZUtils.git'
+  pod 'HHZAlert', :git => 'https://github.com/chenzhe555/HHZAlert.git'
+  pod 'HHZCategory', :git => 'https://github.com/chenzhe555/HHZCategory.git'
+  
+  
+  pod 'react-native-fast-image', :path => '../node_modules/react-native-fast-image/react-native-fast-image.podspec'
+  pod 'RNCzPermission', :path => '../node_modules/react-native-cz-permission/ios/RNCzPermission.podspec'
+  pod 'RNCzNavigationview', :path => '../node_modules/react-native-cz-navigationview/ios/RNCzNavigationview.podspec'
+  pod 'RNCzCalendar', :path => '../node_modules/react-native-cz-calendar/ios/RNCzCalendar.podspec'
+  pod 'RNCzAlipayCalendar', :path => '../node_modules/react-native-cz-alipay-calendar/ios/RNCzAlipayCalendar.podspec'
+  pod 'RNCzToast', :path => '../node_modules/react-native-cz-toast/ios/RNCzToast.podspec'
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+  'Core',
+  'DevSupport',
+  'RCTText',
+  'RCTNetwork',
+  'RCTWebSocket',
+  'RCTImage',
+  'ART',
+  'RCTActionSheet',
+  'RCTGeolocation',
+  'RCTPushNotification',
+  'RCTSettings',
+  'RCTVibration',
+  'RCTLinkingIOS',
+  'CxxBridge',
+  'RCTAnimation',
+  'RCTCameraRoll',
+  'RCTBlob'
+  ]
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga/yoga.podspec'
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+  #解压Zip
+  pod 'SSZipArchive', '~> 2.1.4' 
+  pod 'MJExtension', '~> 3.0.15.1'
+end
+
+
