@@ -12,7 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		4F7EDF3346545E19C65C84B7 /* libPods-subpackage_project_test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EEAB5FA822A6E564178A04 /* libPods-subpackage_project_test.a */; };
-		94A161CE2241293200380B25 /* rnfiles in Resources */ = {isa = PBXBuildFile; fileRef = 94A161CD2241293200380B25 /* rnfiles */; };
+		94A161D02241307900380B25 /* rnfiles in Resources */ = {isa = PBXBuildFile; fileRef = 94A161CF2241307800380B25 /* rnfiles */; };
 		94B537AC223B7D0700E38B60 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B537AA223B7D0700E38B60 /* RootViewController.m */; };
 		94B537AD223B7D0700E38B60 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94B537AB223B7D0700E38B60 /* RootViewController.xib */; };
 		94B53806223B83A600E38B60 /* HHZRNRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B53805223B83A600E38B60 /* HHZRNRouteManager.m */; };
@@ -33,7 +33,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = subpackage_project_test/main.m; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		729837D113FE3B570E6B5948 /* Pods-subpackage_project_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-subpackage_project_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-subpackage_project_test/Pods-subpackage_project_test.debug.xcconfig"; sourceTree = "<group>"; };
-		94A161CD2241293200380B25 /* rnfiles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = rnfiles; path = subpackage_project_test/rnfiles; sourceTree = "<group>"; };
+		94A161CF2241307800380B25 /* rnfiles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = rnfiles; path = subpackage_project_test/rnfiles; sourceTree = "<group>"; };
 		94B537A9223B7D0700E38B60 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		94B537AA223B7D0700E38B60 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		94B537AB223B7D0700E38B60 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		13B07FAE1A68108700A75B9A /* subpackage_project_test */ = {
 			isa = PBXGroup;
 			children = (
-				94A161CD2241293200380B25 /* rnfiles */,
+				94A161CF2241307800380B25 /* rnfiles */,
 				94B53783223B7CF000E38B60 /* classes */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -202,7 +202,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				94A161CE2241293200380B25 /* rnfiles in Resources */,
+				94A161D02241307900380B25 /* rnfiles in Resources */,
 				94B537AD223B7D0700E38B60 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
