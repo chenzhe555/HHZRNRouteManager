@@ -145,7 +145,6 @@
  */
 -(void)handleLoadJSNotification:(BOOL)success
 {
-  if (success) NSLog(@"ssssss---loadJSSuccess\n");
   if (self.loadJSArray.count > 0) {
     if (success && !self.isLoadOnce) self.isLoadOnce = YES;
     HHZRNRouteModel * model = self.loadJSArray[0];
@@ -243,7 +242,6 @@
  */
 -(NSString *)getBundleURLString:(NSString * __nullable)bundleName
 {
-  NSLog(@"bundlePath:%@\n",[NSBundle mainBundle].bundleURL.path);
   NSMutableString * mutaStr = [[NSMutableString alloc] initWithString:[NSString stringWithFormat:@"%@/",[NSBundle mainBundle].bundleURL.path]];
   if (bundleName) {
     if (self.constantModel.bundleBaseName.length > 0) [mutaStr appendString:[NSString stringWithFormat:@"%@/%@.bundle",self.constantModel.bundleBaseName,bundleName]];

@@ -61,7 +61,7 @@
   [mutaArr addObject:model4];
   
   [[HHZRNRouteManager shareManager] startWithCache:NO modelArray:mutaArr callback:^(BOOL success, NSDictionary *dic) {
-    NSLog(@"ssssss---startWithCache success");
+
   }];
 }
 
@@ -76,7 +76,7 @@
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
           [[NSUserDefaults standardUserDefaults] setObject:@(1) forKey:@"load_once"];
           [[HHZRNRouteManager shareManager] reloadCallback:^(BOOL success, NSDictionary *dic) {
-            NSLog(@"ssssss---reloadCallback success");
+            
           }];
         });
       });
